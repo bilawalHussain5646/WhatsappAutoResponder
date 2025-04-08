@@ -32,7 +32,9 @@ This is a Python-based WhatsApp Auto-Responder bot that works in the background 
 
 ### 1. Install Dependencies, 
 
-pip install -r requirements.txt
+1. python -m venv env
+2. ./env/scripts/activate
+3. pip install -r requirements.txt
 
 
 Make sure you have Python installed. Then run:
@@ -40,4 +42,4 @@ Make sure you have Python installed. Then run:
 python whatsappAutoResponder.py
 
 ```bash
-pip install selenium
+
